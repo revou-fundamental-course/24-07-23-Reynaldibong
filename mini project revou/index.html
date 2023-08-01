@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traveller</title>
+    <link rel="icon" href="./assets/icon.png" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="navPict">
+          <img src="./assets/icon.png" alt="" />
+          <div>Traveller</div>
+        </div>
+        <div id="navButton">
+          <div class="buttons"><a href="#title">Home</a></div>
+          <div class="buttons"><a href="#ourPack">Our Package</a></div>
+          <div class="buttons"><a href="#boxContent2">Call Us</a></div>
+        </div>
+      </nav>
+
+      <div id="boxText">
+        <div id="fontsize">
+          YOUR TRAVEL JUST <br />
+          GOT UPGRADED
+        </div>
+        <div id="fontsmall">
+          Finally, a Travel solution just for airline employess. <br />
+          your exclusive discount? They're all here.
+        </div>
+        <div id="buttonstart">
+          <a href="#title"><button>GET STARTED</button></a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <center>
+        <div id="title">
+          <h1>Your Trusted Travel Agent's</h1>
+          <p id="title2">Your happiness is our hapiness</p>
+        </div>
+
+        <div id="content">
+          <div id="boxContent1">
+            <div id="content1">
+              <div class="slide-container">
+                <div class="slide fade">
+                  <img src="./assets/1 (2).jpg" alt="" />
+                </div>
+
+                <div class="slide fade">
+                  <img src="./assets/3 (2).jpg" alt="" />
+                </div>
+
+                <div class="slide fade">
+                  <img src="./assets/4(1).jpg" alt="" />
+                </div>
+              </div>
+
+              <div id="subTitle">
+                "Liburan jadi menyenangkan bersama Travel <br />
+                Agentku."
+              </div>
+              <div id="avatar">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/847/847969.png?w=826&t=st=1690694549~exp=1690695149~hmac=59b9b1c669d720b88c3120c71127f220d132d25650ccc42e69cef5475f7c482a"
+                  alt=""
+                />
+
+                <div id="avatarText">
+                  Florence Hugles
+                  <br />
+                  <div><em>Ibu Rumah Tangga, 28</em></div>
+                </div>
+              </div>
+
+              <div id="text">
+                <p>
+                  Use this space to provide users with more information <br />
+                  about your offer. Consider it a follow-up to your headline
+                  <br />
+                  and explain the benefits of your service or product.
+                </p>
+              </div>
+
+              <div>
+                <div id="featureText">
+                  <div class="box">
+                    <div class="featureText1">1</div>
+                    <div class="featureText2">
+                      Your first feature, written in the form of a <br />
+                      benefit statement.
+                    </div>
+                  </div>
+
+                  <div class="box">
+                    <div class="featureText1">2</div>
+                    <div class="featureText2">
+                      Your second feature, written in the form <br />
+                      of a benefit statement.
+                    </div>
+                  </div>
+
+                  <div class="box">
+                    <div class="featureText1">3</div>
+                    <div class="featureText2">
+                      Your third feature written, in the form of <br />
+                      a benefit statement.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="content2">
+            <div id="boxContent2">
+              <h3>Contact Us</h3>
+              <p>
+                Sales akan menghubungi anda 1x24 <br />
+                Jam setelah data kami terima.
+              </p>
+
+              <form
+                id="inputForm"
+                method="post"
+                name="form"
+                onsubmit="return validationName()"
+                action="#"
+                autocomplete="off"
+              >
+                <div>
+                  <div>Your name?</div>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="First and last name"
+                  />
+                  <div id="nameError" class="error-message1">
+                    Please fill up your Name
+                  </div>
+                </div>
+
+                <div>
+                  <div>Email Address:</div>
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    placeholder="example@email.com"
+                    onkeydown="validationEmail()"
+                  />
+                  <div id="emailError" class="error-message"></div>
+                </div>
+
+                <div>
+                  <div>What are you interested in?</div>
+                  <select name="" id="">
+                    <option value="">Select option</option>
+                    <option value="">Eating</option>
+                    <option value="">Gaming</option>
+                    <option value="">Travelling</option>
+                  </select>
+                </div>
+
+                <div>
+                  <button type="submit" value="submit">SEND</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- our Package -->
+        <div id="ourPack">
+          <h1>Our Package</h1>
+        </div>
+
+        <div>
+          <div id="package">
+            <div id="threeBox">
+              <div class="boxInside">
+                <div>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/2910/2910914.png"
+                    alt=""
+                  />
+                </div>
+                <div class="destination">
+                  <div>Bali</div>
+                  <p>
+                    This description supports <br />
+                    and extends the bullet point <br />
+                    above.
+                  </p>
+                </div>
+              </div>
+
+              <div class="boxInside">
+                <div>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/2910/2910914.png"
+                    alt=""
+                  />
+                </div>
+                <div class="destination">
+                  <div>Japan</div>
+                  <p>
+                    This description supports <br />
+                    and extends the bullet point <br />
+                    above.
+                  </p>
+                </div>
+              </div>
+
+              <div class="boxInside">
+                <div>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/2910/2910914.png"
+                    alt=""
+                  />
+                </div>
+                <div class="destination">
+                  <div>Singapore</div>
+                  <p>
+                    This description supports <br />
+                    and extends the bullet point <br />
+                    above.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <center>
+              <div id="or"></div>
+            </center>
+
+            <div id="threeBox">
+              <div class="boxInside">
+                <div>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/2910/2910914.png"
+                    alt=""
+                  />
+                </div>
+                <div class="destination">
+                  <div>Bandung</div>
+                  <p>
+                    This description supports <br />
+                    and extends the bullet point <br />
+                    above.
+                  </p>
+                </div>
+              </div>
+
+              <div class="boxInside">
+                <div>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/2910/2910914.png"
+                    alt=""
+                  />
+                </div>
+                <div class="destination">
+                  <div>Surabaya</div>
+                  <p>
+                    This description supports <br />
+                    and extends the bullet point <br />
+                    above.
+                  </p>
+                </div>
+              </div>
+
+              <div class="boxInside">
+                <div>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/2910/2910914.png"
+                    alt=""
+                  />
+                </div>
+                <div class="destination">
+                  <div>Third Feature</div>
+                  <p>
+                    This description supports <br />
+                    and extends the bullet point <br />
+                    above.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- closing -->
+        <div>
+          <div id="closing">
+            <h1>Your Closing Argument Headline</h1>
+            <div id="boxclosing">
+              <div id="textClosing">
+                Suspendisse egestas rhoncus urna in bibendum. Donec urna neque,
+                euismod sed <br />
+                justo quis, convallis tincidunt risus. Phasellus fringilla odio
+                vel erat fringilla,
+              </div>
+              <div>
+                <button id="CTA">
+                  <a href="#boxContent2">Call To Action</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </center>
+    </main>
+
+    <!-- footer -->
+
+    <footer>
+      <div>
+        <center id="ending">
+          <img src="./assets/icon.png" alt="" />
+          <div id="endingText">
+            <div>Terms of Service</div>
+            <div>Privacy Policy</div>
+          </div>
+          <div>&copy 2023 Reynaldi Wijaya</div>
+        </center>
+      </div>
+    </footer>
+
+    <script src="./JS/script.js" type="text/javascript"></script>
+  </body>
+</html>

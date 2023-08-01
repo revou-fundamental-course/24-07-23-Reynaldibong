@@ -1,0 +1,948 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  /* background-color: chocolate; */
+}
+
+/* Header */
+header {
+  background-image: url(../assets/wallpaperflare.com_wallpaper.jpg);
+  background-repeat: no-repeat;
+  height: 1000px;
+  background-size: cover;
+  padding: 10px 0px 10px 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 70px 10px 70px;
+  /* align-items: baseline; */
+  /* border-bottom: 1px solid #dbdbdb; */
+  max-width: 100%;
+  /* height: 1000px; */
+  /* background-image: url(../assets/wallpaperflare.com_wallpaper.jpg); */
+}
+#navPict {
+  height: 40px;
+}
+
+#navPict {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 30px;
+  color: white;
+}
+
+#navPict > img {
+  width: 100px;
+  height: 40px;
+
+  border-radius: 10px;
+}
+
+#navButton {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  /* border: 1px solid white; */
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.buttons {
+  padding: 10px 20px 10px 20px;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+.buttons > a {
+  color: white;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+#boxText {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  text-align: center;
+  padding-top: 28%;
+  /* justify-content: center; */
+}
+
+#fontsize {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 10px;
+}
+
+#fontsmall {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+}
+
+#buttonstart > a {
+  text-decoration: none;
+}
+#buttonstart > a > button {
+  border: 1px solid #dbdbdb;
+  background-color: #2196f3;
+  color: white;
+  height: 40px;
+  padding: 15px 25px 15px 25px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 2px;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+
+/* Body */
+
+main {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 0px 150px 10px 150px;
+}
+
+/* @content1 */
+
+#title {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px 20px 0px;
+  margin: 20px 0px 20px 0px;
+  gap: 10px;
+  background-color: #333333;
+  color: white;
+  border-radius: 10px;
+}
+
+#title2 {
+  font-size: 18px;
+  color: rgb(190, 190, 190);
+}
+#content {
+  display: flex;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #e8e9e4;
+  border-radius: 10px;
+}
+
+#boxContent1 {
+  display: flex;
+  justify-content: center;
+  flex: 2;
+}
+
+#content1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+#content1 > img {
+  width: 800px;
+  border-radius: 10px;
+}
+
+.slide-container {
+  max-width: 800px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.slide {
+  display: none;
+}
+
+.slide > img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.fade {
+  animation: fade 3s ease-in-out infinite;
+}
+
+@keyframes fade {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  25%,
+  75% {
+    opacity: 1;
+  }
+}
+
+#subTitle {
+  font-size: 18px;
+  padding: 0px 0px 0px 30px;
+  text-align: left;
+  color: gray;
+}
+
+#avatar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 0px 0px 0px 30px;
+}
+
+#avatar > img {
+  height: 42px;
+}
+
+#avatarText {
+  font-size: 13px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+#avatarText > div {
+  color: gray;
+}
+
+#text {
+  text-align: left;
+  font-size: 20px;
+}
+
+#featureText {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.featureText1 {
+  display: flex;
+  font-size: 15px;
+  border-radius: 30px;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  color: #dbdbdb;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.featureText2 {
+  display: flex;
+  font-size: 15px;
+  text-align: left;
+  color: gray;
+}
+
+/* @content2 */
+
+#content2 {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+#boxContent2 {
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  /* background-color: #edf0f4; */
+  border: 1px double black;
+  border-radius: 5px;
+}
+
+#inputForm {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+
+#inputForm > div {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+#inputForm > div > input,
+select {
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  padding-left: 10px;
+  border: none;
+  background-color: none;
+  color: gray;
+  /* cursor: pointer; */
+}
+
+#inputForm > div > button {
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #dbdbdb;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.error-message1 {
+  padding-left: 5px;
+  font-style: italic;
+  color: red;
+  display: none;
+}
+
+.error-message {
+  padding-left: 5px;
+  font-style: italic;
+  color: #000;
+  /* display: none; */
+}
+
+/* ourPackage */
+
+#ourPack > h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0px 60px 0px;
+  background-color: #333333;
+  color: white;
+  border-radius: 10px;
+}
+#package {
+  padding: 30px 0px 30px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-bottom: 3px solid #dbdbdb;
+  border-top: 3px solid #dbdbdb;
+}
+
+#threeBox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.boxInside {
+  display: flex;
+  gap: 20px;
+}
+
+.boxInside > div > img {
+  width: 40px;
+  display: flex;
+  border-radius: 50%;
+  background-color: #edf0f4;
+  padding: 5px 5px 5px 5px;
+}
+
+.destination > div {
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.destination {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: gray;
+  padding-top: 5px;
+}
+
+#or {
+  border-bottom: 4px solid #dbdbdb;
+  width: 250px;
+}
+
+/* closing */
+
+#closing {
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 0px 20px 0px;
+  background-color: #333333;
+  color: white;
+}
+
+#textClosing {
+  font-size: 13px;
+  color: gray;
+}
+
+#boxclosing {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-bottom: 20px;
+}
+
+#boxclosing > div > button {
+  padding: 10px 50px 10px 50px;
+  border-radius: 5px;
+  background-color: #afafaf;
+  color: rgb(54, 53, 53);
+  cursor: pointer;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* footer */
+footer > div {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  font-size: 12px;
+  color: gray;
+}
+
+#ending {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+#ending > img {
+  width: 100px;
+}
+
+#endingText {
+  display: flex;
+  gap: 15px;
+}
+
+#CTA > a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  #content1 > img {
+    width: 350px;
+  }
+
+  .slide > img {
+    width: 90%;
+    border-radius: 5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px 30px 40px;
+    /* align-items: baseline; */
+    /* border-bottom: 1px solid #dbdbdb; */
+    max-width: 100%;
+    /* height: 1000px; */
+    /* background-image: url(../assets/wallpaperflare.com_wallpaper.jpg); */
+  }
+
+  .buttons {
+    font-size: 20px;
+  }
+
+  main {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    padding: 0px 100px 30px 100px;
+  }
+
+  #boxText {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    text-align: center;
+    padding-top: 70%;
+
+    /* justify-content: center; */
+  }
+  #content1 > img {
+    width: 300px;
+  }
+
+  .slide > img {
+    width: 90%;
+    border-radius: 5px;
+  }
+
+  #subTitle {
+    font-size: 13px;
+  }
+
+  #text > p {
+    font-size: 13px;
+    padding-left: 20px;
+  }
+
+  #featureText {
+    padding-left: 10px;
+    font-size: 12px;
+  }
+  #content2 {
+    font-size: 13px;
+  }
+
+  #boxContent2 {
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: #edf0f4;
+  }
+  #boxContent2 > p {
+    font-size: 12px;
+  }
+
+  #inputForm > div > input,
+  select {
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #dbdbdb;
+    padding-left: 10px;
+    cursor: pointer;
+  }
+
+  #inputForm > div > button {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+
+  .boxInside {
+    display: flex;
+    gap: 10px;
+  }
+
+  .boxInside > div > img {
+    width: 30px;
+    display: flex;
+    border-radius: 50%;
+    background-color: #edf0f4;
+    padding: 5px 5px 5px 5px;
+  }
+
+  .destination > p {
+    font-size: 12px;
+  }
+
+  #closing {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0px 10px 0px;
+    border-bottom: 3px solid #dbdbdb;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 767px) {
+  header {
+    background-image: url(../assets/wallpaperflare.com_wallpaper.jpg);
+    height: 700px;
+    padding: 10px 0px 10px 0px;
+  }
+
+  #boxText {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    text-align: center;
+    padding-top: 200px;
+
+    /* justify-content: center; */
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 10px 10px 10px;
+    align-items: center;
+    /* border-bottom: 1px solid #dbdbdb; */
+  }
+
+  #navPict > img {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+  }
+
+  #navPict > div {
+    font-size: 13px;
+  }
+
+  #navButton {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+
+  .slide > img {
+    width: 85%;
+    border-radius: 5px;
+  }
+
+  #fontsize {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #subTitle {
+    font-size: 13px;
+  }
+
+  #avatar > img {
+    padding-left: 10px;
+  }
+  #fontsmall {
+    font-size: 12px;
+  }
+
+  #buttonstart {
+    padding-top: 30px;
+  }
+  #buttonstart > a > button {
+    height: 25px;
+  }
+  .buttons {
+    padding: 5px 5px 5px 5px;
+  }
+
+  .buttons > a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .buttons1 {
+    padding: 10px 5px 10px 5px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
+
+  main {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    padding: 0px 10px 5px 10px;
+  }
+
+  /* @content1 */
+
+  #title {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 20px 0px;
+    gap: 1px;
+    font-size: 13px;
+  }
+
+  #title2 {
+    color: gray;
+    font-size: 15px;
+  }
+
+  #content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  #boxContent1 {
+    display: flex;
+    justify-content: center;
+    flex: 2;
+  }
+
+  #content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #content1 > img {
+    width: 350px;
+    border-radius: 10px;
+  }
+
+  #subTitle {
+    padding: 1px;
+    text-align: left;
+    color: gray;
+  }
+
+  #avatar {
+    display: flex;
+    padding: 0px 150px 0px 0px;
+  }
+
+  #avatar > img {
+    height: 32px;
+  }
+
+  #avatarText {
+    font-size: 11px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  #avatarText > div {
+    color: gray;
+  }
+
+  #text {
+    text-align: left;
+    font-size: 11px;
+    padding-left: 10px;
+  }
+
+  #featureText {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 10px;
+    padding-left: 10px;
+  }
+
+  .box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .featureText1 {
+    display: flex;
+    font-size: 15px;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: #dbdbdb;
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  .featureText2 {
+    display: flex;
+    font-size: 13px;
+    text-align: left;
+    color: gray;
+  }
+
+  /* @content2 */
+
+  #content2 {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #boxContent2 {
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: #edf0f4;
+    width: 85%;
+  }
+
+  #boxContent2 > p {
+    font-size: 15px;
+  }
+
+  #inputForm {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+  }
+
+  #inputForm > div {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #inputForm > div > input,
+  select {
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #dbdbdb;
+    padding-left: 10px;
+    cursor: pointer;
+  }
+
+  #inputForm > div > button {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+
+  /* ourPackage */
+
+  #ourPack > h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0px 60px 0px;
+    background-color: #333333;
+  }
+  #package {
+    padding: 30px 0px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-bottom: 3px solid #dbdbdb;
+  }
+
+  #threeBox {
+    /* padding-left: 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .boxInside {
+    display: flex;
+    gap: 15px;
+  }
+
+  .boxInside > div > img {
+    width: 20px;
+    display: flex;
+    border-radius: 50%;
+    background-color: #edf0f4;
+    padding: 5px 5px 5px 5px;
+  }
+
+  .destination > div {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+
+  .destination {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: gray;
+    padding-top: 5px;
+    font-size: 15px;
+  }
+
+  #or {
+    border-bottom: 3px solid #dbdbdb;
+    width: 150px;
+  }
+
+  /* closing */
+
+  #closing {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0px 20px 0px;
+    border-bottom: 3px solid #dbdbdb;
+  }
+
+  #closing > h1 {
+    font-size: 15px;
+  }
+
+  #textClosing {
+    font-size: 9px;
+    color: gray;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+  }
+
+  #boxclosing {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 10px;
+  }
+
+  #boxclosing > div > button {
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    background-color: #29323d;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    height: 35px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+
+  /* footer */
+  footer > div {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    font-size: 12px;
+    color: gray;
+  }
+
+  #ending {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #ending > img {
+    width: 100px;
+  }
+
+  #endingText {
+    display: flex;
+    gap: 15px;
+  }
+}
