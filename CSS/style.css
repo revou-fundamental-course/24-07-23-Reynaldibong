@@ -270,7 +270,7 @@ main {
   padding: 70px;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
   /* background-color: #edf0f4; */
   border: 1px double black;
   border-radius: 5px;
@@ -519,7 +519,7 @@ footer > div {
     padding: 10px 10px 10px 10px;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     background-color: transparent;
   }
   #boxContent2 > p {
