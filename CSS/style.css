@@ -519,8 +519,8 @@ footer > div {
     padding: 10px 10px 10px 10px;
     display: flex;
     flex-direction: column;
-    text-align: left;
-    background-color: #edf0f4;
+    text-align: center;
+    background-color: transparent;
   }
   #boxContent2 > p {
     font-size: 12px;
@@ -785,12 +785,18 @@ footer > div {
     display: flex;
     flex-direction: column;
     text-align: left;
-    background-color: #edf0f4;
+    background-color: transparent;
     width: 85%;
   }
 
   #boxContent2 > p {
     font-size: 15px;
+    text-align: center;
+  }
+
+  #boxContent2 > h3 {
+    /* font-size: 15px; */
+    text-align: center;
   }
 
   #inputForm {
