@@ -270,7 +270,7 @@ main {
   padding: 70px;
   display: flex;
   flex-direction: column;
-  text-align: left;
+  text-align: center;
   /* background-color: #edf0f4; */
   border: 1px double black;
   border-radius: 5px;
